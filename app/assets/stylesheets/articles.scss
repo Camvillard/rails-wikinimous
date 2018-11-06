@@ -1,0 +1,27 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ------ VARIABLES ------ */
+
+$cotton-candy: #FFB8D1;
+$charleston-green: #272932;
+$honeydew: #F5FBEF;
+$gray-green: #607B7D;
+$slate-gray: #304F5B;
+
+$primary-color: $slate-gray;
+$accent-color: $cotton-candy;
+
+
+$font-family-josefin: 'Josefin Sans', sans-serif;
+$font-family-inconsolata: 'Inconsolata', monospace;
+$font-family-open: 'Open Sans', sans-serif;
+
+
+/* ------ GENERAL STYLES ------ */
+
+* {
+  margin: 0;
+}
+

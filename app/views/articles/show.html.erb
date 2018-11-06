@@ -1,0 +1,12 @@
+<h1><%= @article.title %> </h1>
+
+<p><%= @article.content %></p>
+
+<div id="sidebar">
+  <%= link_to 'edit', edit_article_path(@article) %>
+  <%= link_to 'delete', article_path(@article), method: :delete %>
+
+
+</div>
+
+<%= link_to 'back home', articles_path %>
